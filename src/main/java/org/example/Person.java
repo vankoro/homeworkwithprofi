@@ -38,6 +38,8 @@ public class Person {
         this.age = age;
     }
 
+
+
     public void move(int countSteps) {
         System.out.println(name + " сделал " + countSteps + " шагов");
     }
@@ -45,5 +47,6 @@ public class Person {
     public void talk(String s) {
         System.out.println(name + " говорит: " + s);
     }
+
 
 }
